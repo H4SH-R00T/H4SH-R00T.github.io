@@ -7,6 +7,9 @@
       $myfile = fopen("text.txt",'w');
       fwrite($myfile, "Some text");
       fclose($myfile);
+
+      $filemio = file("text.txt");
+      echo $filemio;
     ?>
   </head>
   <body>
