@@ -1,9 +1,15 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <script src="p5.js"></script>
-  <script src="sketch.js"></script>
-</head>
-<body>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Sito di prova</title>
+    <?php
+      $myfile = fopen("text.txt",'w');
+      fwrite($myfile, "Some text");
+      fclose($myfile);
+    ?>
+  </head>
+  <body>
+
+  </body>
 </html>
